@@ -1,0 +1,25 @@
+.container {
+  text-align: center; /* 텍스트 가운데 정렬 */
+  margin-top: 100px; /* 페이지 상단과의 간격 */
+}
+
+.winnerText {
+  color: #007bff; /* 승자 텍스트 색상 */
+  font-size: 36px; /* 승자 텍스트 폰트 크기 */
+}
+
+.noResultText {
+  color: #999; /* 결과 없음 텍스트 색상 */
+  font-size: 24px; /* 결과 없음 텍스트 폰트 크기 */
+}
+
+.link {
+  display: block; /* 링크를 블록 레벨 요소로 설정하여 전체 너비에 링크를 표시 */
+  margin-top: 20px; /* 링크 위쪽 여백 */
+  color: #007bff; /* 링크 색상 */
+  font-size: 18px; /* 링크 폰트 크기 */
+}
+
+.link:hover {
+  text-decoration: underline; /* 마우스 오버 시 밑줄 표시 */
+}
